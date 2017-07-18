@@ -18,7 +18,9 @@
     "babel-preset-es2015": "^6.24.1"
   },
   "scripts": {
-    "start": "babel-node server.js"
+    "start": "node ./dist/server.js",
+    "build": "babel server.js ./routes/battles.js -d dist"
+
   },
   "babel": {
     "presets": [
