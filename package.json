@@ -1,0 +1,9 @@
+{
+  "name": "got-battle-api",
+  "version": "1.0.0",
+  "description": "Api designed for learning purpose",
+  "main": "index.js",
+  "repository": "https://github.com/jaspreet57/got-battle-api.git",
+  "author": "Jaspreet Singh",
+  "license": "MIT"
+}
