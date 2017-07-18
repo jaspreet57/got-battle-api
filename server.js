@@ -19,9 +19,7 @@ app.route('/search').get(searchBattles);
 
 // ...For all the other requests just send error message
 app.route("*").get((req, res) => {
-	var err = new Error('Not found');
-	res.status(404);
-	res.send(err);
+	res.send("Not Found");
 });
 
 app.listen(8080);
