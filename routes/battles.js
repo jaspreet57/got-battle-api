@@ -7,7 +7,7 @@ var db;
 
 
 // Initialize connection once
-MongoClient.connect("mongodb://localhost/local", function(err, database) {
+MongoClient.connect("mongodb://demo:demo@ds161742.mlab.com:61742/got-battle-db", function(err, database) {
   if(err) return console.error(err);
   db = database;
 });
